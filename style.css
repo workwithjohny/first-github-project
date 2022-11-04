@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(245, 220, 199);
+  background: linear-gradient(to left, rgb(167, 160, 160), white);
+}
+
+h1 {
+  font-size: 70px;
+  margin: 4rem;
+}
+
+h1 span {
+  color: rgb(77, 77, 216);
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: all 2s;
+  font-size: 70px;
+}
+
+h1 span:hover {
+  font-size: 80px;
+  color: rgb(104, 4, 4);
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0 0 0 4rem;
+}
+
+img {
+  margin: 1rem 0 1rem 4rem;
+  transition: all;
+  border: 3px;
+  border-radius: 40px;
+  transition: all 4s 4s;
+}
+
+footer {
+    font-size: 30px;
+    color: rgb(77, 77, 216);
+    font-weight: 900;
+    text-align: center;
+    margin: 10rem 0 ;
+    background: rgb(231, 231, 231);
+}
