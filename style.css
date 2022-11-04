@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: rgb(245, 220, 199);
-  background: linear-gradient(to left, rgb(167, 160, 160), white);
+  background: linear-gradient(to left, rgb(235, 231, 231), white);
 }
 
 h1 {
@@ -35,7 +35,7 @@ h2 {
   margin: 0 0 0 4rem;
 }
 
-img {
+.transition {
   margin: 1rem 0 1rem 4rem;
   transition: all;
   border: 3px;
@@ -43,11 +43,100 @@ img {
   transition: all 4s 4s;
 }
 
+.container {
+  display: flex;
+  border: 3px solid rgb(85, 85, 201);
+  width: 50%;
+  height: 500;
+  box-shadow: 10px 10px rgb(85, 85, 201);
+  margin: 10rem 5rem 5rem 0;
+  float: right;
+  padding: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.container-two {
+  border: 3px solid rgb(85, 85, 201);
+  width: 50%;
+  height: 500;
+  box-shadow: 10px 10px rgb(85, 85, 201);
+  margin: 0 0 0 5rem;
+  float: left;
+  padding: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.container-three {
+  text-align: center;
+  height: 70%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.git-hub {
+  border-radius: 30px;
+}
+.git-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
 footer {
-    font-size: 30px;
-    color: rgb(77, 77, 216);
-    font-weight: 900;
-    text-align: center;
-    margin: 10rem 0 ;
-    background: rgb(231, 231, 231);
+  font-size: 20px;
+  font-weight: 400;
+  background: rgb(94, 90, 90);
+  height: 70%;
+  padding: 2rem 4rem; 
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+.socials {
+  padding: 0.5 0 2rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+  border-radius: 30px;
+}
+
+.facebook {
+  border: 1.5px solid black;
+  border-radius: 3rem;
+}
+.twitter {
+  border: 1.5px solid black;
+  border-radius: 3rem;
+}
+.discord {
+  border: 1.5px solid black;
+  border-radius: 3rem;
+}
+.github {
+  border: 1.5px solid black;
+  border-radius: 3rem;
+}
+
+.containerfour {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+}
+.clr {
+  clear: both;
 }
